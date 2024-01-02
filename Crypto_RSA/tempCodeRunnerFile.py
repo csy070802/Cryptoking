@@ -1,4 +1,5 @@
-p = 857504083339712752489993810777
-q = 1029224947942998075080348647219
-n = (p-1)*(q-1)
-print(n)
+d = pow(e,-1,phi)
+n = q*p
+flag = pow(ct,d,n)
+print(flag)
+print(long_to_bytes(flag))
